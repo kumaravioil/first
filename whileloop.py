@@ -1,10 +1,6 @@
-while True:
-    print("Who are you?")
-    name=input()
-    if name!= "Kumar":
+n=0
+while n<=10:
+    n += 1
+    if n%2!=0:
         continue
-    print("Hello, Kumar. What is the password?")
-    password=input()
-    if password=="secret":
-        break
-    print("Incorrect password")
+    print(n,end=" ")
