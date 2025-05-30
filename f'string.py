@@ -16,3 +16,12 @@ print(full_name)
 print(f'{full_name.title()}')
 print("\tPython")
 print("Languages:\n \tPython\n \tC\n \tJavascript")
+favourite_language="  Python  "
+print(favourite_language.rstrip())
+favourite_language=favourite_language.rstrip()
+favourite_language=favourite_language.lstrip()
+print(favourite_language)
+nostarch_url="https://nostarch.com"
+nostarch_url=nostarch_url.removeprefix('https://')
+nostarch_url=nostarch_url.removesuffix('.com')
+print(nostarch_url)
