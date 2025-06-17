@@ -39,5 +39,4 @@ data = {
     }
 }
 print(data['person']['contacts']['phone'])
-
     
